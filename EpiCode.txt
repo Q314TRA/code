@@ -1,0 +1,6 @@
+// no se cargaban los complementos si no se abria la consola de depuracion 
+
+	if (!window.console) window.console = {};
+	if (!window.console.log) window.console.log = function () { };
+
+// fin 
